@@ -1,10 +1,15 @@
 userInput = input("Whats you name?")
 
-if(userInput == "Adam"):
-    print("cool")
+while(True):
+    if(userInput == "Adam"):
+        print("cool")
 
-elif(userInput == "Diana"):
-    print("Welcome back hoe")
+    elif(userInput == "Diana"):
+        print("Welcome back hoe")
 
-else:
-    print("uncool")
+    elif(userInput == "Let Me Out"):
+        print("If we must")
+        break
+
+    else:
+        print("uncool")
