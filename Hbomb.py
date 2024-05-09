@@ -3,7 +3,7 @@ userInput = input("Whats you name?")
 if(userInput == "Adam"):
     print("cool")
 
-if(userInput == "Diana"):
+elif(userInput == "Diana"):
     print("Welcome back hoe")
 
 else:
