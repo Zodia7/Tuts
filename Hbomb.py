@@ -1,6 +1,7 @@
-userInput = input("Whats you name?")
-
 while(True):
+
+    userInput = input("What is your name? ")
+
     if(userInput == "Adam"):
         print("cool")
 
